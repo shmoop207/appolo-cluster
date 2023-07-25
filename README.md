@@ -6,7 +6,7 @@
 npm install appolo-cluster
 ```
 
-### Usage
+#### Usage
 ```javascript
 import {createCluser} from 'appolo-cluster';
 
