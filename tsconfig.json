@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "alwaysStrict": true,
+    "importHelpers": true,
+    "target": "ES2020",
+    "noImplicitAny": false,
+    "sourceMap": true,
+    "experimentalDecorators": true,
+    "moduleResolution": "node",
+    "preserveConstEnums": true,
+  }
+}

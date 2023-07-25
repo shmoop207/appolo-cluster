@@ -1,0 +1,41 @@
+{
+  "name": "@appolo/cluster",
+  "description": "node cluster wrapper",
+  "keywords": [],
+  "author": {
+    "name": "Roman Svichar",
+    "email": "shmoop207@gmail.com"
+  },
+  "engines": {
+    "node": ">= 16.x.x",
+    "npm": ">= 8.x.x"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "mocha test --exit"
+  },
+  "main": "./index.js",
+  "version": "0.0.1",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shmoop207/appolo-cluster.git"
+  },
+  "readme": "",
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "@appolo/utils": "^8.0.50"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.3.5",
+    "@types/mocha": "^10.0.1",
+    "@types/node": "^20.4.4",
+    "benchmark": "^2.1.4",
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "tslib": "^2.6.0",
+    "typescript": "^4.9.5"
+  }
+}
